@@ -4,7 +4,7 @@ for words in word:
     print(words)
 
 
-for i in  word:
-    print(f"{word.index(i)}.{i},")
+for count, i in  enumerate(word, start=1):
+    print(f"{i}.{count},")
     
 print(len(word))
